@@ -1,5 +1,8 @@
 *.class
 *.log
+.*
+!.gitignore
+*.iml
 
 # sbt specific
 dist/*
@@ -8,6 +11,7 @@ lib_managed/
 src_managed/
 project/boot/
 project/plugins/project/
+project/project/
 
 # Scala-IDE specific
 .scala_dependencies
