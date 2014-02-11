@@ -5,7 +5,7 @@ object BuildSettings {
   val paradiseVersion = "2.0.0-M3"
   val buildSettings = Defaults.defaultSettings ++ Seq(
     organization := "mixfix",
-    version := "1.0.0",
+    version := "0.1.0",
     //scalacOptions ++= Seq("-Ymacro-debug-lite"),
     scalaVersion := "2.10.3",
     resolvers += Resolver.sonatypeRepo("snapshots"),
